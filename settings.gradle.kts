@@ -8,10 +8,6 @@ include("moduleA")
 include("parentModuleC")
 include("parentModuleB")
 include("parentModuleB:childModuleBA")
-//findProject(":parentModuleB:childModuleBA")?.name = "childModuleBA"
 include("parentModuleB:childModuleBB")
-//findProject(":parentModuleB:childModuleBB")?.name = "childModuleBB"
 include("parentModuleC:childModuleCA")
-//findProject(":parentModuleC:childModuleCA")?.name = "childModuleCA"
 include("parentModuleC:childModuleCB")
-//findProject(":parentModuleC:childModuleCB")?.name = "childModuleCB"
