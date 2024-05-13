@@ -5,9 +5,10 @@ plugins {
 
 repositories {
     mavenCentral()
+    gradlePluginPortal()
 }
 
 dependencies {
     implementation(libs.kotlin.jvm)
-//    implementation(libs.sonarqube)
+    implementation(libs.sonarqube)
 }
