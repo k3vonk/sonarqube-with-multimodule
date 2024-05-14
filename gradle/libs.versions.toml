@@ -1,10 +1,12 @@
 [versions]
 kotlinPlugin = "1.9.23"
 sonarqubePlugin = "5.0.0.4638"
+springBoot = "3.2.5"
 
 [libraries]
 kotlin-jvm = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinPlugin" }
 sonarqube = { module = "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin", version.ref ="sonarqubePlugin" }
+springboot = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "springBoot" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlinPlugin" }

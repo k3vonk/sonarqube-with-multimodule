@@ -11,3 +11,6 @@ include("parentModuleB:childModuleBA")
 include("parentModuleB:childModuleBB")
 include("parentModuleC:childModuleCA")
 include("parentModuleC:childModuleCB")
+include("code-coverage-report")
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")

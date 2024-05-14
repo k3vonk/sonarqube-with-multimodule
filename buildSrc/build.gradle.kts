@@ -11,4 +11,5 @@ repositories {
 dependencies {
     implementation(libs.kotlin.jvm)
     implementation(libs.sonarqube)
+    implementation(libs.springboot)
 }
